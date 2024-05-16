@@ -1,0 +1,304 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #54B435;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .arrow-btn {
+    position: fixed;
+    top: 5%;
+    left: 7%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .arrow-icon {
+    display: inline-block;
+    font-size: 80px; /* Adjust the size as needed */
+    color: #333; /* Adjust the color as needed */
+    transform: none; /* Rotate the arrow to face left */
+  }
+    
+  .rectangle {
+    position: fixed;
+    width: 1320px;
+    height: 160px;
+    border-radius: 16px;
+    top: -10px;
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo{
+    position: fixed;
+    top:5%;
+    left: 100px;
+    height: 500px;
+  }
+  
+  .logo img{
+    height: 80px;
+    width: 250px;
+  }
+  
+  .circle img{
+    position: fixed;
+    top: 7%;
+    right:300px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .circle  {
+    position:fixed;
+    top: 6%;
+    right: 100px;
+    color: black;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .mitra {
+    position: fixed;
+    top: 0%;
+    right: 70%;
+    height: 500px;
+    color: black;
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .mitra h1{
+    position: fixed;
+    top: 8%;
+    right: 79,5%;
+    height: 500px;
+    color: black;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .rectangle1 {
+    position:fixed;
+    width: 1150px;
+    height: 600px;
+    top: 250px;
+    left: 7%;
+    border-radius: 16px;
+    background-color: white;
+    color: white;
+    box-shadow: black;
+  }
+
+  .rectangle1 img {
+    position: relative;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: black;
+    margin: 30px;
+  }  
+
+  .rectangle1 h1 {
+    position: fixed;
+    bottom: 48%;
+    left: 20%;
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .rectangle1 h2 {
+    position: fixed;
+    bottom: 44%;
+    left: 22%;
+    color: black;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: underline;
+  }
+
+  .status h1{
+    position: fixed;
+    top: 327px;
+    right: 42%;
+    font-size: 14px;
+    color: white;
+  }
+
+  .status{
+    position:fixed;
+    width: 200px;
+    height: 30px;
+    top: 330px;
+    right: 38%;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #54B435;
+    color: white;
+    box-shadow: black;
+  }
+  
+.kodal{
+    position: fixed;
+    bottom: 10%;
+    left: 10%;
+    width: 1065px;
+    height: 200px;
+    background-color: white;
+    color: white;
+    border-radius: 16px;
+    border:solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.kodal h1{
+    position: fixed;
+    bottom: 30%;
+    left: 15%;
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kodal h2{
+    position: fixed;
+    bottom: 25%;
+    left: 15%;
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kodal h3{
+    position: fixed;
+    bottom: 20%;
+    left: 15%;
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kodal h4{
+    position: fixed;
+    bottom: 28%;
+    left: 30%;
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kodal h5{
+    position: fixed;
+    bottom: 22%;
+    left: 30%;
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kodal h6{
+    position: fixed;
+    bottom: 16%;
+    left: 30%;
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.terima {
+    position: fixed;
+    bottom: 6%;
+    left: 42%;
+    background-color: #54B435;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .tolak {
+    position: fixed;
+    bottom: 6%;
+    left: 50%;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .email{
+    position: fixed;
+    top: 51%;
+    left: 20%;
+  }
+
+  .email img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .verif{
+    position:fixed;
+    top: 49%;
+    right: 36%;
+  }
+
+  .verif img{
+    width: 20px;
+    height: 20px;
+  }

@@ -1,0 +1,572 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #54B435;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .arrow-btn {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .arrow-icon {
+    display: inline-block;
+    font-size: 80px; /* Adjust the size as needed */
+    color: #333; /* Adjust the color as needed */
+    transform: none; /* Rotate the arrow to face left */
+  }
+
+  .rectangle {
+    position: fixed;
+    width: 1320px;
+    height: 160px;
+    border-radius: 16px;
+    top: -10px;
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .rectangle p{
+    position:relative;
+    right: 62%;
+    left: 38%;
+    color: black;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .mitra {
+    position: fixed;
+    top: 0%;
+    right: 80%;
+    height: 500px;
+    color: black;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .mitra h1{
+    position: fixed;
+    top: 8%;
+    right: 79,5%;
+    height: 500px;
+    color: black;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .circle img{
+    position: fixed;
+    top: 7%;
+    right:300px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .circle  {
+    position:fixed;
+    top: 6%;
+    right: 100px;
+    color: black;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .rectangle1 {
+    position:fixed;
+    width: 1150px;
+    height: 600px;
+    top: 250px;
+    left: 7%;
+    border-radius: 16px;
+    background-color: white;
+    color: white;
+    box-shadow: black;
+  }
+
+  .rectangle1 img {
+    position: relative;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: black;
+    margin: 30px;
+  }
+
+  .rectangle1 h1 {
+    position: relative;
+    bottom: 60%;
+    left: 15%;
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .rectangle1 h2 {
+    position: relative;
+    bottom: 47%;
+    left: 15%;
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .rectangle1 h3 {
+    position: relative;
+    bottom: 35%;
+    left: 15%;
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .rectangle1 h4 {
+    position: relative;
+    bottom: 78%;
+    left: 18%;
+    color: black;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: underline;
+  }
+
+  .rectangle1 h5 {
+    position: relative;
+    bottom: 65%;
+    left: 18%;
+    color: black;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: underline;
+  }
+
+  .rectangle1 h6 {
+    position: relative;
+    bottom: 55%;
+    left: 18%;
+    color: black;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: underline;
+  }
+
+  input[type="submit"] {
+    position: fixed;
+    bottom: 0%;
+    left: 46%;
+    background-color: transparent;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .status{
+    position:fixed;
+    width: 200px;
+    height: 30px;
+    top: 330px;
+    right: 40%;
+    text-align: center;
+    border-radius: 16px;
+    background-color: white;
+    color: black;
+    border: solid;
+    border-radius: 16px;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: black;
+  }
+
+  .status h1{
+    position: fixed;
+    top: 328px;
+    right: 10%;
+    font-size: 14px;
+  }
+
+  .status1{
+    position:fixed;
+    width: 200px;
+    height: 30px;
+    top: 450px;
+    right: 40%;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #54B435;
+    color: white;
+    box-shadow: black;
+  }
+
+  .status h2{
+    position: fixed;
+    top: 443px;
+    right: 10%;
+    font-size: 14px;
+  }
+
+  .status2{
+    position:fixed;
+    width: 200px;
+    height: 30px;
+    top: 570px;
+    right: 40%;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #54B435;
+    color: white;
+    box-shadow: black;
+  }
+
+  .status h3{
+    position: fixed;
+    top: 562px;
+    right: 10%;
+    font-size: 14px;
+  }
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+  }
+  
+  .icon-text {
+    margin: 0;
+  }
+  
+  .group-button {
+    position: fixed;
+    top: 295px;
+    right: 16%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .group-button1 {
+    position: fixed;
+    top: 55%;
+    right: 16%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .group-button2 {
+    position: fixed;
+    top: 69%;
+    right: 16%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .eyebutton {
+    position: fixed;
+    top: 41%;
+    right: 18%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .eyebutton1 {
+    position: fixed;
+    top: 55%;
+    right: 18%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .eyebutton2 {
+    position: fixed;
+    top: 69%;
+    right: 18%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .locbutton {
+    position: fixed;
+    top: 41%;
+    right: 20%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .locbutton1 {
+    position: fixed;
+    top: 55%;
+    right: 20%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .locbutton2 {
+    position: fixed;
+    top: 69%;
+    right: 20%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .tshbutton {
+    position: fixed;
+    top: 41%;
+    right: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+  }
+
+  .tshbutton1 {
+    position: fixed;
+    top: 55%;
+    right: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+  }
+
+  .tshbutton2 {
+    position: fixed;
+    top: 69%;
+    right: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+  }
+
+  .button  {
+    margin-bottom: 30px 45px;
+    width: 0%;
+    height: 0%;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  .group-button img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .group-button1 img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .group-button2 img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .eyebutton img{
+    height: 30px;
+    width: 30px;
+  }
+
+  .eyebutton1 img{
+    height: 30px;
+    width: 30px;
+  }
+
+  .eyebutton2 img{
+    height: 30px;
+    width: 30px;
+  }
+
+  .tshbutton img{
+    height: 30px;
+    width: 30px;
+  }
+
+  .tshbutton1 img{
+    height: 30px;
+    width: 30px;
+  }
+
+  .tshbutton2 img{
+    height: 30px;
+    width: 30px;
+  }
+
+  .nextt{
+    position: fixed;
+    bottom: -1%;
+    right: 45%;
+  }
+
+  .nextt img{
+    height: 20px;
+    width: 20px;
+    transform: rotate(270deg);
+  }
+
+  .cari {
+    position:fixed;
+    width:500px;
+    height: 50px;
+    top: 170px;
+    left: 7%;
+    border-radius: 16px;
+    background-color: white;
+    color: black;
+    box-shadow: black;
+  }
+
+  .cari p{
+    position: fixed;
+    left: 100px;
+  }
+
+  .tambah {
+    position: fixed;
+    top: 145px;
+    left: 75%;
+  }
+
+  .tambah img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 0%;
+  }
+
+  .tambah p {
+    position: fixed;
+    top: 23%;
+    left: 80%;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #54B435;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color:#54B435;
+    
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+  .email{
+    position: fixed;
+    top: 45%;
+    left: 18%;
+  }
+
+  .email img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .email1{
+    position: fixed;
+    top: 63%;
+    left: 18%;
+  }
+
+  .email1 img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .email2{
+    position: fixed;
+    top: 80%;
+    left: 18%;
+  }
+
+  .email2 img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .search{
+    position: fixed;
+    top: 21%;
+    left: 39%;
+  }
+
+  .search img{
+    width: 20px;
+    height: 20px;
+  }

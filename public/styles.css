@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: #e9e9e9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 45px;
+    width: 400px;
+    text-align: center;
+    position: fixed;
+    right: 100px;
+  }
+  
+  h1 {
+    color: #54B435;
+    position: fixed;
+    bottom: 270px;
+    left: 280px;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  a {
+    color: #54B435;
+    position: fixed;
+    bottom: 260px;
+    left: 270px;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  b {
+    color: #54B435;
+    position: fixed;
+    bottom: 220px;
+    left: 240px;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #54B435;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #54B435;
+  }
+  
+  .form-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .form-footer a {
+    color: #54B435;
+    text-decoration: none;
+  }
+
+  .logo{
+    position: fixed;
+    bottom:10px;
+    left: 215px;
+    height: 500px;
+  }
+
+  .logo img{
+    height: 150px;
+    width: 320px;
+  }
+
+  .head {
+    color: #fff;
+    position: fixed;
+    top: 0px;
+    right: 280px;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  h {
+    color: #fff; 
+    position: fixed;
+    top: 50px;
+    right: 215px;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .circle {
+  width: 800px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #54B435;
+  position: fixed;
+  top: -150px;
+  right: -40px;
+}

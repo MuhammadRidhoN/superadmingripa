@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #54B435;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .arrow-btn {
+    position: fixed;
+    top: 5%;
+    left: 7%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .arrow-icon {
+    display: inline-block;
+    font-size: 80px; /* Adjust the size as needed */
+    color: #333; /* Adjust the color as needed */
+    transform: none; /* Rotate the arrow to face left */
+  }
+  .rectangle {
+    position: fixed;
+    width: 1320px;
+    height: 160px;
+    border-radius: 16px;
+    top: -10px;
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo{
+    position: fixed;
+    top:5%;
+    left: 100px;
+    height: 500px;
+  }
+  
+  .logo img{
+    height: 80px;
+    width: 250px;
+  }
+  
+  .circle img{
+    position: fixed;
+    top: 7%;
+    right:300px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .circle  {
+    position:fixed;
+    top: 6%;
+    right: 100px;
+    color: black;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .mitra {
+    position: fixed;
+    top: 0%;
+    right: 76%;
+    height: 500px;
+    color: black;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .mitra h1{
+    position: fixed;
+    top: 8%;
+    right: 75%;
+    height: 500px;
+    color: black;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .rectangle1 {
+    position:fixed;
+    width: 1150px;
+    height: 600px;
+    top: 250px;
+    left: 7%;
+    border-radius: 16px;
+    background-color: white;
+    color: white;
+    box-shadow: black;
+  }
+
+  .rectangle1 p{
+    position: fixed;
+    right: 46%;
+    font-size: 24px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .rectangle1 button{
+    color: black;
+    background-color: white;
+    border-color: transparent;
+    position: fixed;
+    bottom: 2%;
+    right: 50%;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .stat{
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    right: 60%;
+  }
+
+  .stat img{
+    width: 200px;
+    height: 200px;
+  }

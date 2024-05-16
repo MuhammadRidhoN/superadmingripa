@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #54B435;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rectangle {
+  position: fixed;
+  width: 1320px;
+  height: 160px;
+  border-radius: 16px;
+  top: -10px;
+  background-color: white;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.rectangle p{
+  position:relative;
+  right: 62%;
+  left: 38%;
+  color: black;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.logo{
+  position: fixed;
+  top:5%;
+  left: 100px;
+  height: 500px;
+}
+
+.logo img{
+  height: 80px;
+  width: 250px;
+}
+
+.circle img{
+  position: fixed;
+  top: 7%;
+  right:300px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.circle  {
+  position:fixed;
+  top: 6%;
+  right: 100px;
+  color: black;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.rectangle1 {
+  width: 1150px;
+  height: 300px;
+  border-radius: 16px;
+  background-color: white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: black;
+}
+
+.rectangle1 img{
+  width: 200px;
+  height: 200px;
+  margin: 4px 200px;
+  
+}
+
+.db{
+  background-color: white;
+  border-color: transparent;
+  position: fixed;
+  top: 30%;
+  right: 46%;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+.button-group {
+  position: fixed;
+  bottom: 20px;
+  color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #4CAF50;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 30px 50px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.button img{
+  width: 100px;
+  height: 100px;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
